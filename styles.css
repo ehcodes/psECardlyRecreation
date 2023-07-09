@@ -1,0 +1,106 @@
+body {
+  background: #e6e6e6;
+  line-height: 1.7;
+  font: 12px Helvetica;
+  margin:0;
+}
+header {
+  background: #e6e6e6 repeat-x url(imgs/background.jpg);
+  text-align: center;
+  min-height: 162px;
+}
+.headerLogo {
+  margin-top: 2rem;
+  width: 190px;
+  padding-bottom: 1.5rem;
+}
+.outerContainer {
+  background: #e6e6e6;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.innerContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  max-width: fit-content;
+  column-gap: 1rem;
+}
+main,
+aside,
+.advertisements {
+  display: flex;
+  flex-flow: column nowrap;
+  background: white;
+}
+main {
+}
+main h1 {
+  text-transform: capitalize;
+}
+p {
+  line-height: 1.5rem;
+}
+a {
+  color: #ff3300;
+  font-weight: bold;
+  text-decoration: none;
+}
+p a {
+  text-transform: capitalize;
+}
+p a:last-child {
+  color: red;
+  text-transform: uppercase;
+}
+article {
+  max-width: 630px;
+}
+article:first-of-type {
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+article:last-of-type {
+  padding: 0 1rem 2rem 1rem;
+}
+img {
+  max-width: 100%;
+}
+article p:last-child {
+  border-top: 1px dotted black;
+  border-bottom: 1px solid black;
+  padding: 0.2rem;
+}
+aside {
+  font-weight: bold;
+  width: 30%;
+  padding: 0 1.5rem 1rem;
+  align-self: flex-start;
+}
+aside h1 {
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 1rem;
+}
+.blogArchive {
+  padding-top: 0.5rem;
+}
+.blogArchive ul,
+.blogroll ul {
+  text-transform: capitalize;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1rem;
+  padding: 0.5rem 0 0 0;
+}
+.blogroll {
+  padding-bottom: 1rem;
+}
+.advertisements img {
+  padding: 1rem 0;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+}
