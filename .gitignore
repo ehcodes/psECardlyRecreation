@@ -1,4 +1,8 @@
+# General & Folder view configuration files
 .DS_Store
+.AppleDouble
+.LSOverride
+Desktop.ini
 
 # Logs
 logs
